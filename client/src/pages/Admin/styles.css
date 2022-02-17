@@ -1,0 +1,14 @@
+.admin-menu {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-width: 2px;
+}
+
+.admin-menu li {
+  padding: 0 10px;
+  font-size: 20px;
+}

@@ -12,6 +12,10 @@ npm install
 npm start
 ```
 ----
+In the system there are two roles as "admin" and "user". 
+"User" roles can add products to their chart after they sign up and log in. They can also remove products from cart and can see the amount of products instantly. 
+On the other hand, the "admin" role can view the orders in the admin panel, update the products, delete them or add new ones.
+----
 ![Screenshot_14](https://user-images.githubusercontent.com/91260944/154497974-120bf357-8671-4da2-8e31-c6f5ab743c24.png)
 ----
 ![Screenshot_15](https://user-images.githubusercontent.com/91260944/154497987-d6bf3cb3-4273-43e8-918f-ec9a0febba70.png)

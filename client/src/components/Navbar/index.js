@@ -31,6 +31,7 @@ function Navbar() {
           </li>
         </ul>
       </div>
+
       <div className={styles.right}>
         {!loggedIn && (
           <>
@@ -55,7 +56,9 @@ function Navbar() {
 
             {user?.role === "admin" && (
               <Link to="/admin">
-                <Button colorScheme="red">Admin</Button>
+                <Button colorScheme="red" mr="1">
+                  Admin
+                </Button>
               </Link>
             )}
 

@@ -1,3 +1,9 @@
-.content {
+.body {
   padding: 15px;
+  height: 100%;
+}
+
+.body.dark {
+  background-color: #777;
+  color: #fff;
 }

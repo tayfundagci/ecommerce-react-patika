@@ -28,13 +28,8 @@ function Orders() {
   }
   return (
     <div>
-      <Text fontSize="2xl">Orders</Text>
-
-      <Table variant="striped">
-        <TableCaption>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-          perspiciatis!
-        </TableCaption>
+      <Table variant="simple">
+        <TableCaption></TableCaption>
         <Thead>
           <Tr>
             <Th>User</Th>

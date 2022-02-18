@@ -76,11 +76,7 @@ function Products() {
   console.log(data);
   return (
     <div>
-      <Flex justifyContent="space-between" alignItems="center">
-        <Text fontSize="2xl" p="5">
-          Products
-        </Text>
-
+      <Flex justifyContent="right" pb="2">
         <Link to="/admin/products/new">
           <Button colorScheme="blue">New</Button>
         </Link>

@@ -11,14 +11,16 @@ import Products from "./pages/Products";
 import ProductDetail from "./pages/ProductDetail";
 import Profile from "./pages/Profile";
 import ProtectedRoute from "./pages/ProtectedRoute";
+import { useTheme } from "./contexts/ThemeContext";
 
 function App() {
+  const { theme } = useTheme();
   return (
     <Router>
       <div>
         <Navbar />
 
-        <div className="content">
+        <div className={`body ${theme}`}>
           <Switch>
             <Route path="/" exact component={Products} />
             <Route path="/products" component={Products} />

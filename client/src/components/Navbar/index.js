@@ -1,16 +1,19 @@
 import styles from "./styles.module.css";
 import { Link } from "react-router-dom";
 import { Button, Img } from "@chakra-ui/react";
+import "../../App.css";
 
+import { useTheme } from "../../contexts/ThemeContext";
 import { useAuth } from "../../contexts/AuthContext";
 import { useBasket } from "../../contexts/BasketContext";
 
 function Navbar() {
   const { loggedIn, user } = useAuth();
   const { items } = useBasket();
+  const { theme, setTheme } = useTheme();
 
   return (
-    <nav className={styles.nav}>
+    <nav className={`${styles.nav}`}>
       <div className={styles.left}>
         <div className={styles.logo}>
           <Link to="/">
@@ -30,6 +33,20 @@ function Navbar() {
             <Link to="/products">Products</Link>
           </li>
         </ul>
+
+        <div className={styles.menu}>
+          <br />
+          <Button
+            colorScheme="gray"
+            borderWidth="3px"
+            borderColor="blackAlpha.500"
+            size="md"
+            mt="3"
+            onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+          >
+            Change Theme
+          </Button>
+        </div>
       </div>
 
       <div className={styles.right}>

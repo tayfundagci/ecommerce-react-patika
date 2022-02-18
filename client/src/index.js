@@ -14,6 +14,7 @@ import { BasketProvider } from "./contexts/BasketContext";
 import App from "./App";
 import { ChakraProvider } from "@chakra-ui/react";
 import reportWebVitals from "./reportWebVitals";
+import { ThemeProvider } from "./contexts/ThemeContext";
 
 // baska sayfaya gectigin zaman tekrardan fetch edilmemesi için yapılan bir islemdir.
 // react query dev tool
@@ -33,7 +34,9 @@ ReactDOM.render(
       <ChakraProvider>
         <AuthProvider>
           <BasketProvider>
-            <App />
+            <ThemeProvider>
+              <App />
+            </ThemeProvider>
           </BasketProvider>
         </AuthProvider>
       </ChakraProvider>
@@ -41,6 +44,7 @@ ReactDOM.render(
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   </React.StrictMode>,
+
   document.getElementById("root")
 );
 

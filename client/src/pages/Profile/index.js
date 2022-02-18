@@ -13,7 +13,7 @@ function Profile({ history }) {
   };
 
   return (
-    <Box mt="5" textAlign="center">
+    <Box mt="5" textAlign="center" height="100vh">
       <Text fontSize="24" fontWeight="bold">
         Profile
       </Text>
@@ -28,6 +28,7 @@ function Profile({ history }) {
         <Text>
           <label style={{ fontWeight: "bold" }}>Role:</label> {user.role}
         </Text>
+
         {/* <Text>
           <label style={{ fontWeight: "bold" }}>E-mail:</label> {items.title}
         </Text> */}

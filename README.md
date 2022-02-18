@@ -44,6 +44,10 @@ On the other hand, the "admin" role can view the orders in the admin panel, upda
 ----
 ![Screenshot_16](https://user-images.githubusercontent.com/91260944/154498969-9cd33a9d-7d9f-404e-93e4-40d425454deb.png)
 ----
+![Screenshot_17](https://user-images.githubusercontent.com/91260944/154635220-1f0bca40-7eca-4dde-ae60-2c33aa97a453.png)
+----
+![Screenshot_19](https://user-images.githubusercontent.com/91260944/154635236-e6793a3d-09d1-470b-8e0f-588f7ff194f5.png)
+----
 ![Screenshot_18](https://user-images.githubusercontent.com/91260944/154633991-dbe10658-1e94-4fe4-a091-a7b4de14383e.png)
 ----
 

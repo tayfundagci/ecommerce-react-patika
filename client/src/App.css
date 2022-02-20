@@ -1,9 +1,10 @@
 .body {
   padding: 15px;
-  height: 100%;
 }
 
 .body.dark {
   background-color: #777;
   color: #fff;
+  height: calc(100vh - 1px);
+  min-height: -webkit-fill-avaible;
 }

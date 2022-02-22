@@ -4,7 +4,9 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <Box textAlign="center" fontSize="2xl"></Box>
+      <Box textAlign="center" fontSize="2xl">
+        Admin Home
+      </Box>
     </div>
   );
 }

@@ -5,6 +5,6 @@
 .body.dark {
   background-color: #777;
   color: #fff;
-  height: calc(100vh - 1px);
+  height: 100%;
   min-height: -webkit-fill-avaible;
 }

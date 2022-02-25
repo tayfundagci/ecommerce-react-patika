@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 import { Link } from "react-router-dom";
-import { Button, Img } from "@chakra-ui/react";
+import { background, Button, color, Img } from "@chakra-ui/react";
 import "../../App.css";
 
 import { useTheme } from "../../contexts/ThemeContext";

@@ -3,7 +3,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div>
+    <div style={{ height: "100vh" }}>
       <Box textAlign="center" fontSize="2xl">
         Admin Home
       </Box>

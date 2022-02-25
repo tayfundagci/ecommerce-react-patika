@@ -75,7 +75,7 @@ function Products() {
 
   console.log(data);
   return (
-    <div>
+    <div style={{ height: "100vh" }}>
       <Flex justifyContent="right" pb="2">
         <Link to="/admin/products/new">
           <Button colorScheme="blue">New</Button>

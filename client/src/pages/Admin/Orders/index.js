@@ -27,7 +27,7 @@ function Orders() {
     return <div>Error {error.message}</div>;
   }
   return (
-    <div>
+    <div style={{ height: "100vh" }}>
       <Table variant="simple">
         <TableCaption></TableCaption>
         <Thead>

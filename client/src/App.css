@@ -1,10 +1,13 @@
 .body {
   padding: 15px;
+  font-size: medium;
 }
 
 .body.dark {
   background-color: #777;
   color: #fff;
+  font-variant: initial;
   height: 100%;
   min-height: -webkit-fill-avaible;
+  font-size: medium;
 }

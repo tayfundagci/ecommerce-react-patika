@@ -13,7 +13,7 @@ function Profile({ history }) {
   };
 
   return (
-    <Box mt="5" textAlign="center" height="100vh">
+    <Box mt="5" textAlign="center">
       <Text fontSize="24" fontWeight="bold">
         Profile
       </Text>
